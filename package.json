@@ -6,9 +6,9 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "node" : "~4.2.1",
-    "npm" : "~3.8.6",
-    "bower" : "~1.7.9"
+    "node": "~4.2.1",
+    "npm": "~3.8.6",
+    "bower": "~1.7.9"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -16,6 +16,7 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "jade": "~1.11.0",
+    "mongoose": "^4.4.19",
     "morgan": "~1.6.1",
     "node-sass-middleware": "0.8.0",
     "serve-favicon": "~2.3.0"
