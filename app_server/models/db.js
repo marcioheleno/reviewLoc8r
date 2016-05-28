@@ -11,17 +11,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 mongoose.connect(dbURI);
 
-// var dbURIlog = 'mongodb://localhost/loc8rLog';
-// var logDB = mongoose.createConnection(dbURIlog);
-//
-// logDB.on('connected', function () {
-//   console.log('Mongoose connected to ' + dbURIlog);
-// });
-//
-// logDB.close(function () {
-//   console.log('Mongoose log disconnected')
-// });
-
 // // Eventos de Conexao
 mongoose.connection.on('connected', function () {
   console.log('Mongoose connected to ' + dbURI);
